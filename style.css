@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+.playerInput {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+input {
+    padding: 1em;
+    margin: 1em 0;
+}
+button {
+    padding: 1em;
+    margin: 1em 0;
+}
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.card {
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+}
